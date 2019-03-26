@@ -1,8 +1,8 @@
-Object.defineProperty(exports, "__esModule", { value: true }); exports.BoxDiv = void 0; class BoxDiv extends HTMLElement {
+class BoxDiv extends HTMLElement {
     /**
-                                                                                                                           * @param  { width, height, depth, color } options
-                                                                                                                           * @returns instance BoxDiv
-                                                                                                                           */
+                                     * @param  { width, height, depth, color } options
+                                     * @returns instance BoxDiv
+                                     */
     constructor(options) {
         super();
 
@@ -332,7 +332,7 @@ Object.defineProperty(exports, "__esModule", { value: true }); exports.BoxDiv = 
         box.style.transform = `translate3d(${x}px, ${y}px, ${z}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg)`;
         //console.log({x, y, z, rx, ry, rz, deg});
     }
-} exports.BoxDiv = BoxDiv;
+}
 
 
 if (!window.customElements.get("box-div")) {

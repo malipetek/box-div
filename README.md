@@ -12,5 +12,5 @@ Web Component that helps you create boxes out of divs with css tranforms.
 > &nbsp;
 > #### Grab code to include:
 >
-> ```<scrip src="https://cdn.jsdelivr.net/gh/malipetek/box-div@620300c964e2200f13f7c0e406c6225d55131f0f/index.babelcompiled.js"></script>```
+> ```<scrip src="https://cdn.jsdelivr.net/gh/malipetek/box-div@latest/index.babelcompiled.js"></script>```
 > &nbsp;
